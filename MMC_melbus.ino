@@ -73,15 +73,15 @@ enum {
   E_SI,     
   E_MRB_2,    
   E_MRB_3,
-  E_IGN_OFF,  // 
-  E_CDC_CIR,  // 
-  E_CDC_TIR,  // 
-  E_CDC_NXT,  // 
-  E_CDC_PRV,  // 
-  E_CDC_CHG,  // 
-  E_CDC_PUP,  // 
-  E_CDC_PDN,  // 
-  E_LIST_MAX  //
+  E_IGN_OFF,  
+  E_CDC_CIR,  
+  E_CDC_TIR,  
+  E_CDC_NXT,   
+  E_CDC_PRV,  
+  E_CDC_CHG,  
+  E_CDC_PUP,   
+  E_CDC_PDN,
+  E_LIST_MAX  
 };
 
 const byte commands[][8] = {
@@ -90,15 +90,15 @@ const byte commands[][8] = {
   SI,    
   MRB_2, 
   MRB_3,
-  IGN_OFF, // 
-  CDC_CIR, // 
-  CDC_TIR, // 
-  CDC_NXT, // 
-  CDC_PRV, // 
-  CDC_CHG, // 
-  CDC_PUP, // 
-  CDC_PDN, // 
-  CDC_NU,   //
+  IGN_OFF, 
+  CDC_CIR,  
+  CDC_TIR, 
+  CDC_NXT, 
+  CDC_PRV, 
+  CDC_CHG, 
+  CDC_PUP, 
+  CDC_PDN, 
+
   
 };
 
